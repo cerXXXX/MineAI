@@ -19,15 +19,16 @@
 
 1. Скачайте дистрибутив и установите в удобную вам папку
 2. Установите [Python](https://www.python.org)
-3. Запустите файл в папке MineAI `\.venv\Scripts\activate.bat`
-4. Запустите командную строку (`cmd`) и при помощи команды `cd` переместитесь в папку `**путь_до_директории_с_MineAI**\.venv\Scripts\`
+3. Запустите командную строку (`cmd`) и при помощи команды `cd` переместитесь в папку `**путь_до_директории_с_MineAI**\` и запустите там команду `python -m venv .venv`
+4. При помощи команды `cd` переместитесь в папку `**путь_до_директории_с_MineAI**\.venv\Scripts\`
 5. Запустите команду `activate.bat`
-6. Запустите `python -m install requirements.txt`
-7. Установите [Node.js](https://nodejs.org)
-8. Установите [LM Studio](https://lmstudio.ai)
-9. Установите любую текстовую модель в LM Studio (здесь и далее используется модель `mistral-7b-instruct-v0.2.Q4_K_M`) и запустите ее через вкладку `Local server`
-10. Перейдите в папку MineAI и отредактируйте необходимые переменные в файле `bot.py` (`version`, `hostname`, `port`, `botname`, `sourse_l`, `ai_model`, `addresing_the_bot`)
-11. Запустите файл `start.bat`
+6. Вернитесь при помощи `cd` в `**путь_до_директории_с_MineAI**`
+7. Запустите `python -m install -r requirements.txt`
+8. Установите [Node.js](https://nodejs.org)
+9. Установите [LM Studio](https://lmstudio.ai)
+10. Установите любую текстовую модель в LM Studio (здесь и далее используется модель `mistral-7b-instruct-v0.2.Q4_K_M`) и запустите ее через вкладку `Local server`
+11. Перейдите в папку MineAI и отредактируйте необходимые переменные в файле `bot.py` (`version`, `hostname`, `port`, `botname`, `sourse_l`, `ai_model`, `addresing_the_bot`)
+12. Запустите файл `start.bat`
 
 ## Прблемы
 - Если после запуска бот не подключился к серверу или появилась ошибка `Error: read ECONNRESET`: 
